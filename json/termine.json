@@ -1,0 +1,120 @@
+{
+  "adminId": 0,
+  "termine" : [
+    {
+      "id":1,
+      "bezeichnung" : "BioNTech, Pfizer",
+      "adresse" : "Plus City, Plus-Kauf-Straße 7, 4061 Pasching",
+      "datum": "13.12.2021",
+      "zeitslot": "12:00",
+      "moeglichePlaetze": 5,
+      "angemeldetePersonen" : [
+        {
+          "personId":1,
+          "vorname" : "Barbara",
+          "nachname" : "Maier",
+          "impfstatus": true
+        },
+        {
+          "personId":2,
+          "vorname" : "Susanna",
+          "nachname" : "Lustig",
+          "impfstatus": true
+        },
+        {
+          "personId":3,
+          "vorname" : "Klaus",
+          "nachname" : "Bacher",
+          "impfstatus": false
+        }
+      ]
+    },
+    {
+      "id":2,
+      "bezeichnung" : "Johnson & Johnson",
+      "adresse" : "Parkplatz vor Gemeindeamt, Ortsplatz 1, 4062 Kirchberg-Thening (IMPFBUS)",
+      "datum": "13.12.2021",
+      "zeitslot": "12:10",
+      "moeglichePlaetze": 6,
+      "angemeldetePersonen" : [
+        {
+          "personId":4,
+          "vorname" : "Hans",
+          "nachname" : "Gutternik",
+          "impfstatus": true
+        }
+      ]
+    },
+    {
+      "id":3,
+      "bezeichnung" : "AstraZeneca",
+      "adresse" : "Ordination Dr. Bichler, Dr. Keiler, 4481 Asten",
+      "datum": "13.12.2021",
+      "zeitslot": "12:20",
+      "moeglichePlaetze": 8,
+      "angemeldetePersonen" : [
+        {
+          "personId":5,
+          "vorname" : "Caroline",
+          "nachname" : "Feuer",
+          "impfstatus": false
+        },
+        {
+          "personId":6,
+          "vorname" : "Katrin",
+          "nachname" : "Escher",
+          "impfstatus": false
+        },
+        {
+          "personId":7,
+          "vorname" : "Hannah",
+          "nachname" : "Hauer",
+          "impfstatus": true
+        },
+        {
+          "personId":8,
+          "vorname" : "Gustav",
+          "nachname" : "Gurk",
+          "impfstatus": false
+        },
+        {
+          "personId":9,
+          "vorname" : "Johann",
+          "nachname" : "Freudig",
+          "impfstatus": true
+        }
+      ]
+    },
+    {
+      "id":4,
+      "bezeichnung" : "AstraZeneca",
+      "adresse" : "Stadthalle, Hafnerstraße 2, 4470 Enns (IMPFBUS)",
+      "datum": "13.12.2021",
+      "zeitslot": "12:30",
+      "moeglichePlaetze": 10,
+      "angemeldetePersonen" : [
+        {
+          "personId":10,
+          "vorname" : "Luise",
+          "nachname" : "Gattenhofer",
+          "impfstatus": true
+        },
+        {
+          "personId":11,
+          "vorname" : "Elke",
+          "nachname" : "Wünsch",
+          "impfstatus": false
+        }
+      ]
+    },
+    {
+      "id":5,
+      "bezeichnung" : "Moderna",
+      "adresse" : "Ordination Dr. Jasmina Jamak, Hargelsberger Straße 2, 4484 Kronstorf",
+      "datum": "13.12.2021",
+      "zeitslot": "12:40",
+      "moeglichePlaetze": 5,
+      "angemeldetePersonen" : []
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+/**** LAYOUT UND STRUKTUR ****/
+
+body{
+    background-color: #eeeeee;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 60px 30px 20px;
+    grid-column: 2/3;
+}
+
+#neuerTermin{
+    margin: 20px 0 40px;
+    padding: 20px 0;
+    background-color: #e7f1ff;
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(12, 99, 228);
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(12, 99, 228);
+}
+
+h2{
+    margin: 40px 0 30px;
+}
+
+h4{
+    font-size: 1.2em;
+}
+
+thead{
+    background-color: #e7f1ff;
+}
+
+footer{
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #e7f1ff;
+}
+
+.nav-link{
+    color: #212529;
+}
+
+.nav-link:hover{
+    color: rgb(12, 99, 228);
+}
+
+.accordion-button:hover {
+    background-color: #eeeeee;
+}
+
+main .row{
+    margin: 15px 0;
+}
+
+.btn-secondary{
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #212529;
+    background-color: #eeeeee;
+    border: #212529 2px solid;
+    margin-top: 45px;
+    float:right;
+}
+
+tr td button{
+    width: 100%;
+    margin: 2px 0;
+}
+
+.btn-primary{
+    float: right;
+    font-weight: 500;
+    background-color: #e7f1ff;
+    color: rgb(12, 99, 228);
+    border: 2px solid rgb(12, 99, 228) ;
+}
+
+.btn-primary:hover{
+    background-color: rgb(12, 99, 228);
+    color: white;
+}
+
+.btn-success{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #146c43;
+    background-color: #d8f5e7;
+    border: #146c43 2px solid;
+    padding: 4px 10px 3px;
+}
+
+.btn-danger{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #b02a37;
+    background-color: #f1e4e6;
+    border: #b02a37 2px solid;
+    padding: 5px 10px 2px;
+}
+
+#anmeldungen label{
+    font-size: 1.2em;
+}
+
+#anmeldungen .row{
+    margin: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+/**** ANIMATIONEN ****/
+
+header {
+    animation-name: slide-up;
+    animation-duration: 1.5s;
+}
+
+@keyframes slide-up {
+    0% {
+        margin-top: 10vh;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+
+/**** ANPASSUNGEN FÜR KLEINERE BILDSCHIRME ****/
+
+@media (max-width: 1210px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
