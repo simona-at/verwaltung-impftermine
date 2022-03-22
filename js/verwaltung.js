@@ -115,7 +115,7 @@ export default class Verwaltung {
      * und druckt sowohl die Termine in der Tabelle, als auch die Personen im PopUp-Fenster aus
      */
     #loadFromJSON(){
-        fetch("./json/termine.json").then((response)=>{
+        fetch("json/termine.json").then((response)=>{
             return response.json();
         }).then(data =>{
             this.#adminId = data.adminId;
